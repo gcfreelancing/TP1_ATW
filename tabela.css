@@ -1,0 +1,54 @@
+.logo {
+    width: 50px;
+}
+
+.titulo {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #b8dcf2;
+}
+
+.barraPesquisa {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    float: right;
+    right: 100;
+    padding: 5px;
+}
+
+.BotaoSearch {
+    background-color: #b8dcf2;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #deeefa;
+}
+
+.registos {
+    padding: 10px;
+}
+
+.copyright {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    right: 0
+}

@@ -1,0 +1,140 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding-top: 15px;
+  margin: auto;
+}
+
+input[type="email" i] {
+
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  width: 30%;
+  margin-top: 30px;
+
+  /*stacking fieldsets above each other*/
+  position: relative;
+}
+
+input[type="password" i] {
+
+  -webkit-text-security: disc !important;
+
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 2.5% 10%;
+
+  /*stacking fieldsets above each other*/
+  position: relative;
+}
+
+button {
+  padding: 1px 2px;
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 10%;
+  margin: 0 10%;
+
+
+}
+
+.logo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.logEmail,
+.logPassword {
+  background-color: white;
+}
+
+.botaoLogin {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.botaoLogin:hover,
+.botaoLogin:focus {
+  background-color: #b8dcf2;
+  color: #1d3260;
+}
+
+.botaoLogin:active {
+  background: #b8dcf2;
+  color: #1d3260;
+}
+
+.copyright {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  right: 0
+}
+
+.logCreate {
+  padding-top: 35px;
+}
+
+.Avisos {
+  color: red;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.AvisoSucesso {
+  color: green;
+  padding-top: 5px;
+  padding-left: 5px;
+}

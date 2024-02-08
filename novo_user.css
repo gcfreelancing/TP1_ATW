@@ -1,0 +1,86 @@
+.logo {
+    width: 50px;
+}
+
+.titulo {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.copyright {
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    right: 0
+}
+
+button {
+    background-color: #b8dcf2;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.Avisos {
+    color: red;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+.AvisosNome {
+    color: red;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    text-align: left;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+.AvisosPassword {
+    color: red;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    text-align: left;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+.AvisosKid {
+    color: red;
+    padding-bottom: 75px;
+    padding-left: 5px;
+    text-align: left;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+.AvisoSucesso {
+    color: green;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
